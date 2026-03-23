@@ -1,0 +1,76 @@
+:root {
+  /* -- Palette: Editoral Tech (Light) -- */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f2f4f6;
+  /* Cool Grey */
+  --bg-glass: rgba(255, 255, 255, 0.85);
+
+  --text-primary: #111111;
+  /* Soft Black */
+  --text-secondary: #555555;
+  --text-inverse: #ffffff;
+
+  /* Accent: "Electric Cobalt" */
+  --accent-blue: #0044cc;
+  --accent-red: #ea2027;
+  --accent-dark: #000000;
+
+  --border-color: #e2e4e8;
+
+  /* SHARP RADIUS */
+  --radius-sm: 0px;
+  --radius-md: 2px;
+  --radius-lg: 4px;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: clamp(3rem, 8vw, 6rem);
+  --space-xl: clamp(6rem, 12vw, 12rem);
+}
+
+[data-theme="dark"] {
+  /* -- Palette: Cyber Industrial (Dark) -- */
+  --bg-primary: #050505;
+  /* True Black */
+  --bg-secondary: #111111;
+  /* Matte */
+  --bg-glass: rgba(5, 5, 5, 0.85);
+
+  --text-primary: #ffffff;
+  --text-secondary: #999999;
+  --text-inverse: #000000;
+
+  --accent-blue: #2979ff;
+  /* Electric Blue */
+  --accent-red: #ff4757;
+  --accent-dark: #ffffff;
+
+  --border-color: #222222;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  /* Wider for "Stunning" view */
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.glass {
+  background: var(--bg-glass);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--border-color);
+  /* Proper border instead of gloss */
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--accent-blue), var(--text-primary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  /* Fallback */
+}

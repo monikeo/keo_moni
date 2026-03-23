@@ -1,0 +1,86 @@
+{
+    "en": {
+        "blog": {
+            "title": "Latest Insights",
+            "viewAll": "Read All Articles",
+            "items": [
+                {
+                    "title": "The Evolution of Freestyle Poomsae",
+                    "date": "Oct 12, 2023",
+                    "category": "Sport Science"
+                },
+                {
+                    "title": "Building a Digital Brand in Cambodia",
+                    "date": "Sep 28, 2023",
+                    "category": "Business"
+                },
+                {
+                    "title": "Why I Founded GravZero",
+                    "date": "Aug 15, 2023",
+                    "category": "Origin Story"
+                },
+                {
+                    "title": "Digital Minimalism for Athletes",
+                    "date": "Jul 02, 2023",
+                    "category": "Lifestyle"
+                },
+                {
+                    "title": "The Modern Athlete's Diet",
+                    "date": "Jun 20, 2023",
+                    "category": "Health"
+                },
+                {
+                    "title": "AI in Competitive Sports",
+                    "date": "May 10, 2023",
+                    "category": "Tech"
+                }
+            ]
+        }
+    },
+    "km": {
+        "blog": {
+            "title": "អត្ថបទថ្មីៗ",
+            "viewAll": "អានអត្ថបទទាំងអស់",
+            "items": [
+                {
+                    "title": "ការវិវត្តនៃ Freestyle Poomsae",
+                    "date": "១២ តុលា ២០២៣",
+                    "category": "វិទ្យាសាស្ត្រកីឡា"
+                },
+                {
+                    "title": "ការកសាងម៉ាកយីហោឌីជីថលនៅកម្ពុជា",
+                    "date": "២៨ កញ្ញា ២០២៣",
+                    "category": "អាជីវកម្ម"
+                },
+                {
+                    "title": "ហេតុអ្វីខ្ញុំបង្កើត GravZero?",
+                    "date": "១៥ សីហា ២០២៣",
+                    "category": "ប្រវត្តិ"
+                }
+            ]
+        }
+    },
+    "zh": {
+        "blog": {
+            "title": "最新见解",
+            "viewAll": "阅读所有文章",
+            "items": [
+                {
+                    "title": "特技品势的演变",
+                    "date": "2023年10月12日",
+                    "category": "运动科学"
+                },
+                {
+                    "title": "在柬埔寨建立数字品牌",
+                    "date": "2023年9月28日",
+                    "category": "商业"
+                },
+                {
+                    "title": "我为什么创立 GravZero",
+                    "date": "2023年8月15日",
+                    "category": "起源故事"
+                }
+            ]
+        }
+    }
+}

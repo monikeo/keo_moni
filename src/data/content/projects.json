@@ -1,0 +1,200 @@
+{
+    "en": {
+        "projects_page": {
+            "title": "Projects & Initiatives",
+            "categories": [
+                {
+                    "id": "tech",
+                    "title": "Technology & Platforms",
+                    "items": [
+                        {
+                            "name": "Gravzero Official Web",
+                            "desc": "The primary landing zone for the Gravzero ecosystem, featuring high-end UI/UX and dynamic branding.",
+                            "tech": "Next.js, React, Tailwind CSS",
+                            "link": "#",
+                            "demoLink": "#"
+                        },
+                        {
+                            "name": "Gravzero Taekwondo Web",
+                            "desc": "Dedicated platform for the GravZero Taekwondo academy, scheduling, and martial arts curriculum.",
+                            "tech": "Next.js, React, Tailwind CSS",
+                            "link": "#",
+                            "demoLink": "#"
+                        },
+                        {
+                            "name": "Infinity Taekwondo Web",
+                            "desc": "Marketing platform for Infinity Taekwondo, driving enrollment and showcasing athlete programs.",
+                            "tech": "Next.js, React",
+                            "link": "#",
+                            "demoLink": "#"
+                        },
+                        {
+                            "name": "Infinity TKD Student Portal (SMS)",
+                            "desc": "Internal student management system mapping progression, height, weight, and belt rankings.",
+                            "tech": "Next.js, Google AppScript, Google Sheets",
+                            "link": "#",
+                            "demoLink": "#"
+                        },
+                        {
+                            "name": "Infinity TKD Admin Portal",
+                            "desc": "Comprehensive administrative dashboard for managing student lifecycles, payments, and grading.",
+                            "tech": "Next.js, Google AppScript, Google Sheets",
+                            "link": "#",
+                            "demoLink": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": "media",
+                    "title": "Media & Action Production",
+                    "items": [
+                        {
+                            "name": "GravZero Cinematic 2023",
+                            "desc": "High-end action design video, mapping explosive tricking sequences in Phnom Penh.",
+                            "tech": "RED, Premiere Pro, After Effects",
+                            "link": "#"
+                        },
+                        {
+                            "name": "SEA Games Highlights",
+                            "desc": "Directorial edit of the Cambodian Taekwondo Federation's performance.",
+                            "tech": "DaVinci Resolve",
+                            "link": "#"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "km": {
+        "projects_page": {
+            "title": "គម្រោង និងគំនិតផ្តួចផ្តើម (Projects & Initiatives)",
+            "categories": [
+                {
+                    "id": "tech",
+                    "title": "បច្ចេកវិទ្យា (Technology & Platforms)",
+                    "items": [
+                        {
+                            "name": "Gravzero Official Web",
+                            "desc": "The primary landing zone for the Gravzero ecosystem, featuring high-end UI/UX and dynamic branding.",
+                            "tech": "Next.js, React, Custom CSS",
+                            "link": "#",
+                            "demoLink": "#"
+                        },
+                        {
+                            "name": "Gravzero Taekwondo Web",
+                            "desc": "Dedicated platform for the GravZero Taekwondo academy, scheduling, and martial arts curriculum.",
+                            "tech": "Next.js, React",
+                            "link": "#",
+                            "demoLink": "#"
+                        },
+                        {
+                            "name": "Infinity Taekwondo Web",
+                            "desc": "Marketing platform for Infinity Taekwondo, driving enrollment and showcasing athlete programs.",
+                            "tech": "Next.js, React",
+                            "link": "#",
+                            "demoLink": "#"
+                        },
+                        {
+                            "name": "Infinity TKD Student Portal (SMS)",
+                            "desc": "Internal student management system mapping progression, height, weight, and belt rankings.",
+                            "tech": "Next.js, Google AppScript, Google Sheets",
+                            "link": "#",
+                            "demoLink": "#"
+                        },
+                        {
+                            "name": "Infinity TKD Admin Portal",
+                            "desc": "Comprehensive administrative dashboard for managing student lifecycles, payments, and grading.",
+                            "tech": "Next.js, Google AppScript, Google Sheets",
+                            "link": "#",
+                            "demoLink": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": "media",
+                    "title": "ការផលិត (Media & Action Production)",
+                    "items": [
+                        {
+                            "name": "GravZero Cinematic 2023",
+                            "desc": "High-end action design video, mapping explosive tricking sequences in Phnom Penh.",
+                            "tech": "RED, Premiere Pro, After Effects",
+                            "link": "#"
+                        },
+                        {
+                            "name": "SEA Games Highlights",
+                            "desc": "Directorial edit of the Cambodian Taekwondo Federation's performance.",
+                            "tech": "DaVinci Resolve",
+                            "link": "#"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "zh": {
+        "projects_page": {
+            "title": "项目与倡议 (Projects & Initiatives)",
+            "categories": [
+                {
+                    "id": "tech",
+                    "title": "技术与平台 (Technology & Platforms)",
+                    "items": [
+                        {
+                            "name": "Gravzero Official Web",
+                            "desc": "The primary landing zone for the Gravzero ecosystem, featuring high-end UI/UX and dynamic branding.",
+                            "tech": "Next.js, React, Custom CSS",
+                            "link": "#",
+                            "demoLink": "#"
+                        },
+                        {
+                            "name": "Gravzero Taekwondo Web",
+                            "desc": "Dedicated platform for the GravZero Taekwondo academy, scheduling, and martial arts curriculum.",
+                            "tech": "Next.js, React",
+                            "link": "#",
+                            "demoLink": "#"
+                        },
+                        {
+                            "name": "Infinity Taekwondo Web",
+                            "desc": "Marketing platform for Infinity Taekwondo, driving enrollment and showcasing athlete programs.",
+                            "tech": "Next.js, React",
+                            "link": "#",
+                            "demoLink": "#"
+                        },
+                        {
+                            "name": "Infinity TKD Student Portal (SMS)",
+                            "desc": "Internal student management system mapping progression, height, weight, and belt rankings.",
+                            "tech": "Next.js, Google AppScript, Google Sheets",
+                            "link": "#",
+                            "demoLink": "#"
+                        },
+                        {
+                            "name": "Infinity TKD Admin Portal",
+                            "desc": "Comprehensive administrative dashboard for managing student lifecycles, payments, and grading.",
+                            "tech": "Next.js, Google AppScript, Google Sheets",
+                            "link": "#",
+                            "demoLink": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": "media",
+                    "title": "媒体制作 (Media & Action Production)",
+                    "items": [
+                        {
+                            "name": "GravZero Cinematic 2023",
+                            "desc": "High-end action design video, mapping explosive tricking sequences in Phnom Penh.",
+                            "tech": "RED, Premiere Pro, After Effects",
+                            "link": "#"
+                        },
+                        {
+                            "name": "SEA Games Highlights",
+                            "desc": "Directorial edit of the Cambodian Taekwondo Federation's performance.",
+                            "tech": "DaVinci Resolve",
+                            "link": "#"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

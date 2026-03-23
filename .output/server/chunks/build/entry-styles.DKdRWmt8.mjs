@@ -1,0 +1,15 @@
+import { T as TheNavbar_vue_vue_type_style_index_0_scoped_1bf26b0e_lang } from './entry-styles-2.mjs-Dtd9Vy3a.mjs';
+import { T as TheFooter_vue_vue_type_style_index_0_scoped_55e8382b_lang } from './entry-styles-3.mjs-BlFFmpmz.mjs';
+import { a as app_vue_vue_type_style_index_0_lang } from './entry-styles-4.mjs-hvvPXvQv.mjs';
+
+const main = '@import"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;700&family=Kantumruy+Pro:wght@300;400;600&family=Noto+Sans+SC:wght@300;400;500;700&display=swap";:root{--bg-primary:#fff;--bg-secondary:#f4f5f7;--bg-glass:hsla(0,0%,100%,.7);--text-primary:#2d3436;--text-secondary:#636e72;--text-inverse:#fff;--accent-blue:#0984e3;--accent-red:#d63031;--accent-dark:#2d3436;--border-color:#dfe6e9;--radius-sm:8px;--radius-md:16px;--radius-lg:32px;--space-xs:.5rem;--space-sm:1rem;--space-md:2rem;--space-lg:5rem;--space-xl:10rem}[data-theme=dark]{--bg-primary:#121212;--bg-secondary:#1e1e1e;--bg-glass:hsla(0,0%,7%,.8);--text-primary:#f5f6fa;--text-secondary:#b2bec3;--text-inverse:#121212;--accent-blue:#74b9ff;--accent-red:#ff7675;--accent-dark:#fff;--border-color:#2d3436}.container{margin:0 auto;max-width:1200px;padding:0 1.5rem;width:100%}.glass{backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);background:var(--bg-glass);border-bottom:1px solid hsla(0,0%,100%,.05)}.text-gradient{background:linear-gradient(135deg,var(--accent-blue),var(--text-primary));-webkit-background-clip:text;-webkit-text-fill-color:transparent}:root{--ease-out-expo:cubic-bezier(.16,1,.3,1);--ease-in-out:cubic-bezier(.65,0,.35,1)}@keyframes revealUp{0%{opacity:0;transform:translateY(40px)}to{opacity:1;transform:translateY(0)}}.reveal{animation:revealUp 1.2s var(--ease-out-expo) forwards;opacity:0}.delay-100{animation-delay:.1s}.delay-200{animation-delay:.2s}.delay-300{animation-delay:.3s}.delay-400{animation-delay:.4s}.delay-500{animation-delay:.5s}.hover-lift{transition:transform .4s var(--ease-out-expo),box-shadow .4s var(--ease-out-expo)}.hover-lift:hover{box-shadow:var(--shadow-lg);transform:translateY(-5px)}.hover-scale{transition:transform .4s var(--ease-out-expo)}.hover-scale:hover{transform:scale(1.02)}.img-cover{overflow:hidden}.img-cover img{transition:transform 1.5s var(--ease-out-expo)}.img-cover:hover img{transform:scale(1.1)}*,:after,:before{box-sizing:border-box;margin:0;padding:0}html{font-family:Inter,Kantumruy Pro,Noto Sans SC,sans-serif;scroll-behavior:smooth}body{background-color:var(--bg-primary);color:var(--text-primary);line-height:1.7;overflow-x:hidden;transition:background-color .4s ease,color .4s ease}h5,h6{font-family:var(--font-display);line-height:1.2}img{display:block;max-width:100%}.page-enter-active,.page-leave-active{transition:all .4s}.page-enter-from,.page-leave-to{filter:blur(5px);opacity:0}';
+
+const entryStyles_DKdRWmt8 = [
+  main,
+  TheNavbar_vue_vue_type_style_index_0_scoped_1bf26b0e_lang,
+  TheFooter_vue_vue_type_style_index_0_scoped_55e8382b_lang,
+  app_vue_vue_type_style_index_0_lang
+];
+
+export { entryStyles_DKdRWmt8 as default };
+//# sourceMappingURL=entry-styles.DKdRWmt8.mjs.map

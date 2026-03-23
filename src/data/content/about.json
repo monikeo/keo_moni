@@ -1,0 +1,116 @@
+{
+    "en": {
+        "about": {
+            "title": "Beyond Limits",
+            "summary": "Keo Moni is a Taekwondo freestyle poomsae athlete, coach, and entrepreneur whose journey began with a deep passion for martial arts and performance. His athletic career is complemented by studies in cybersecurity, forming a unique intersection of sport and tech. Specializing in sports performance, he applies sports science and functional training to elevate athlete capabilities. He is the founder of Gravzero Taekwondo and Infinity Taekwondo, two premier dojangs focused on Poomsae & Demonstration in Phnom Penh. Beyond the dojang, his lifestyle centers around hiking, nature, fitness (Hyrox, CrossFit), and travel."
+        },
+        "philosophy": {
+            "title": "Coaching Philosophy",
+            "items": [
+                {
+                    "title": "Movement Quality",
+                    "desc": "Clean fundamentals, safe progression, and biomechanical efficiency."
+                },
+                {
+                    "title": "Mindset & Discipline",
+                    "desc": "Building mental resilience, confidence, and competitive focus."
+                },
+                {
+                    "title": "Creativity & Expression",
+                    "desc": "Encouraging athletes to develop their own style within structured systems."
+                }
+            ]
+        },
+        "expertise": [
+            "Taekwondo Freestyle Poomsae (Elite Level)",
+            "Tricking & Gymnastics-Based Martial Arts Movement",
+            "Athlete Coaching & Performance Development",
+            "Digital Marketing & Social Media Growth",
+            "Cybersecurity & Technical Systems Thinking"
+        ],
+        "vision": {
+            "title": "Vision",
+            "items": [
+                "Become a globally recognized Taekwondo Freestyle athlete",
+                "Build Gravzero Taekwondo into an internationally respected team",
+                "Inspire the next generation through education and example"
+            ]
+        }
+    },
+    "km": {
+        "about": {
+            "title": "អំពីខ្ញុំ",
+            "summary": "កែវ មុនី គឺជាកីឡាករតេក្វាន់ដូ Freestyle Poomsae គ្រូបង្វឹក និងជាសហគ្រិនដែលរួមបញ្ជូលជំនាញកីឡាជាមួយនឹងចំណេះដឹងផ្នែកសន្តិសុខបច្ចេកវិទ្យា (Cybersecurity)។ លោកមានជំនាញក្នុងការហ្វឹកហាត់កាយសម្បទា (Sport Science & Functional Training)។ លោកគឺជាស្ថាបនិក Gravzero Taekwondo និង Infinity Taekwondo ដែលផ្តោតសំខាន់លើ Poomsae និងការសម្តែងក្បាច់គុន។ ក្រៅពីការបង្ហាត់ក្បាច់គុន លោកចូលចិត្តការដើរព្រៃ ធម្មជាតិ ការហាត់ប្រាណ (Hyrox, CrossFit) និងការធ្វើដំណើរ។"
+        },
+        "philosophy": {
+            "title": "ទស្សនវិជ្ជាបង្វឹក",
+            "items": [
+                {
+                    "title": "គុណភាពចលនា",
+                    "desc": "មូលដ្ឋានគ្រឹះច្បាស់លាស់ និងសុវត្ថិភាព។"
+                },
+                {
+                    "title": "វិន័យ និងស្មារតី",
+                    "desc": "កសាងទំនុកចិត្ត និងការយកចិត្តទុកដាក់។"
+                },
+                {
+                    "title": "ការច្នៃប្រឌិត",
+                    "desc": "ជំរុញឱ្យមានរចនាប័ទ្មផ្ទាល់ខ្លួន។"
+                }
+            ]
+        },
+        "expertise": [
+            "Taekwondo Freestyle Poomsae (កម្រិតខ្ពស់)",
+            "Tricking & Gymnastics",
+            "ការបង្វឹកកីឡាករ",
+            "ទីផ្សារឌីជីថល",
+            "សន្តិសុខបច្ចេកវិទ្យា (Cybersecurity)"
+        ],
+        "vision": {
+            "title": "ចក្ខុវិស័យ",
+            "items": [
+                "ក្លាយជាកីឡាករដែលទទួលស្គាល់ជាសកល",
+                "កសាង Gravzero ឱ្យល្បីល្បាញលើឆាកអន្តរជាតិ",
+                "បំផុសគំនិតយុវជនជំនាន់ក្រោយ"
+            ]
+        }
+    },
+    "zh": {
+        "about": {
+            "title": "超越极限",
+            "summary": "Keo Moni (陈跃龙) 是一名自由特技品势运动员、教练和企业家，他将体育竞技与网络安全研究独特结合，并运用运动科学与功能性训练提升运动员表现。作为 Gravzero Taekwondo 和 Infinity Taekwondo 的创始人，他致力于在金边推广品势与示范表演。在道馆之外，他热爱徒步旅行、大自然、健身 (Hyrox, CrossFit) 和旅行。"
+        },
+        "philosophy": {
+            "title": "执教理念",
+            "items": [
+                {
+                    "title": "动作质量",
+                    "desc": "基础扎实，安全进阶，符合生物力学。"
+                },
+                {
+                    "title": "心态与纪律",
+                    "desc": "建立心理韧性，自信心和专注力。"
+                },
+                {
+                    "title": "创造力与表达",
+                    "desc": "鼓励运动员在系统训练中发展个人风格。"
+                }
+            ]
+        },
+        "expertise": [
+            "特技跆拳道品势 (精英级)",
+            "特技与体操武术动作",
+            "运动员执教与体能开发",
+            "数字营销与社交媒体增长",
+            "网络安全与技术思维"
+        ],
+        "vision": {
+            "title": "愿景",
+            "items": [
+                "成为全球认可的特技跆拳道运动员",
+                "将 Gravzero 打造成国际受人尊敬的表演团队",
+                "通过教育和榜样激励下一代"
+            ]
+        }
+    }
+}

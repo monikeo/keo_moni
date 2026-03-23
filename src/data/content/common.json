@@ -1,0 +1,101 @@
+{
+    "en": {
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "media": "Media",
+            "projects": "Projects",
+            "contact": "Contact",
+            "blog": "Blog"
+        },
+        "contact": {
+            "title": "Let's Collaborate",
+            "openTo": [
+                "Sponsorships",
+                "Seminars",
+                "Performances",
+                "Content Collaboration"
+            ],
+            "email": "dark.moni.281000@gmail.com",
+            "socials": {
+                "facebook": "https://www.facebook.com/gravzero.moni.keo/",
+                "instagram": "https://www.instagram.com/gravzero.moni_keo/",
+                "tiktok": "https://www.tiktok.com/@keo.moni",
+                "telegram": "https://t.me/keomoni",
+                "linkedin": "https://linkedin.com/in/keomoni",
+                "youtube": "https://youtube.com/@keomoni"
+            }
+        },
+        "stats": {
+            "profession": "Athlete, Coach, Cyber Student, Founder",
+            "languages": "English, Chinese, Khmer",
+            "cv": "Download Digital CV [↓]"
+        }
+    },
+    "km": {
+        "nav": {
+            "home": "ទំព័រដើម",
+            "about": "អំពីខ្ញុំ",
+            "media": "រូបភាព/វីដេអូ",
+            "projects": "គម្រោង",
+            "contact": "ទំនាក់ទំនង",
+            "blog": "ប្លុក"
+        },
+        "contact": {
+            "title": "ទំនាក់ទំនង",
+            "openTo": [
+                "ការឧបត្ថម្ភ",
+                "សិក្ខាសាលា",
+                "ការសម្តែង",
+                "ការផលិតមាតិកា"
+            ],
+            "email": "dark.moni.281000@gmail.com",
+            "socials": {
+                "facebook": "https://www.facebook.com/gravzero.moni.keo/",
+                "instagram": "https://www.instagram.com/gravzero.moni_keo/",
+                "tiktok": "https://www.tiktok.com/@keo.moni",
+                "telegram": "https://t.me/keomoni",
+                "linkedin": "https://linkedin.com/in/keomoni",
+                "youtube": "https://youtube.com/@keomoni"
+            }
+        },
+        "stats": {
+            "profession": "កីឡាករ, គ្រូបង្វឹក, ស្ថាបនិក, និស្សិត",
+            "languages": "អង់គ្លេស, ចិន, ខ្មែរ",
+            "cv": "ទាញយកប្រវត្តិរូប [↓]"
+        }
+    },
+    "zh": {
+        "nav": {
+            "home": "主页",
+            "about": "关于我",
+            "media": "媒体",
+            "projects": "项目",
+            "contact": "联系",
+            "blog": "博客"
+        },
+        "contact": {
+            "title": "合作",
+            "openTo": [
+                "赞助合作",
+                "研讨会",
+                "表演活动",
+                "内容共创"
+            ],
+            "email": "dark.moni.281000@gmail.com",
+            "socials": {
+                "facebook": "https://www.facebook.com/gravzero.moni.keo/",
+                "instagram": "https://www.instagram.com/gravzero.moni_keo/",
+                "tiktok": "https://www.tiktok.com/@keo.moni",
+                "telegram": "https://t.me/keomoni",
+                "linkedin": "https://linkedin.com/in/keomoni",
+                "youtube": "https://youtube.com/@keomoni"
+            }
+        },
+        "stats": {
+            "profession": "运动员, 教练, 网络学生, 创始人",
+            "languages": "英语, 中文, 高棉语",
+            "cv": "下载简历 [↓]"
+        }
+    }
+}

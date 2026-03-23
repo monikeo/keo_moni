@@ -1,0 +1,75 @@
+:root {
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* Reveal Animation (Fade + Slide Up) */
+@keyframes revealUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.reveal {
+    opacity: 0;
+    /* JS triggers this or we use animation-fill-mode */
+    animation: revealUp 1.2s var(--ease-out-expo) forwards;
+}
+
+/* Delays for Staggered Effect */
+.delay-100 {
+    animation-delay: 100ms;
+}
+
+.delay-200 {
+    animation-delay: 200ms;
+}
+
+.delay-300 {
+    animation-delay: 300ms;
+}
+
+.delay-400 {
+    animation-delay: 400ms;
+}
+
+.delay-500 {
+    animation-delay: 500ms;
+}
+
+/* Interactive Hovers */
+.hover-lift {
+    transition: transform 0.4s var(--ease-out-expo), box-shadow 0.4s var(--ease-out-expo);
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.hover-scale {
+    transition: transform 0.4s var(--ease-out-expo);
+}
+
+.hover-scale:hover {
+    transform: scale(1.02);
+}
+
+/* Image Reveal */
+.img-cover {
+    overflow: hidden;
+}
+
+.img-cover img {
+    transition: transform 1.5s var(--ease-out-expo);
+}
+
+.img-cover:hover img {
+    transform: scale(1.1);
+}

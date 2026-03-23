@@ -1,0 +1,179 @@
+{
+    "en": {
+        "hero": {
+            "title": "Keo Moni",
+            "subtitle": "Freestyle Poomsae Athlete, Cybersecurity Student & Dojang Founder.",
+            "cta": "Explore the Mindset"
+        },
+        "gravzero": {
+            "title": "The Dojangs",
+            "p1": "Leading two premier Taekwondo platforms focused on Poomsae & Demonstration.",
+            "structures": [
+                {
+                    "title": "Gravzero TKD",
+                    "role": "Startup Academy",
+                    "desc": "A real business startup and high-quality Taekwondo academy program."
+                },
+                {
+                    "title": "Infinity TKD",
+                    "role": "Olympic Stadium Club",
+                    "desc": "A dedicated Taekwondo club located in Olympic Stadium, Phnom Penh."
+                },
+                {
+                    "title": "GZ STUDIO",
+                    "role": "Production",
+                    "desc": "High-end action design & brand storytelling."
+                }
+            ]
+        },
+        "achievements": {
+            "title": "Milestones",
+            "items": [
+                {
+                    "year": "2025",
+                    "title": "Founded GravZero",
+                    "desc": "December. Established the first modern tricking/TKD brand in Phnom Penh. & Waein Cup Singapore Competitor."
+                },
+                {
+                    "year": "2023",
+                    "title": "SEA Games Double Bronze",
+                    "desc": "32nd SEA Games: Men's Individual & Mixed Team Freestyle Poomsae."
+                },
+                {
+                    "year": "2022",
+                    "title": "National Triple Bronze",
+                    "desc": "Cambodia National Championship, Third National Sports Competition, & CamTech University Sparring."
+                },
+                {
+                    "year": "Demo",
+                    "title": "National Demo Team",
+                    "desc": "Contributing to Taekwondo Demos with Cambodia’s national team."
+                }
+            ]
+        }
+    },
+    "km": {
+        "hero": {
+            "title": "កែវ មុនី",
+            "subtitle": "កីឡាករ Freestyle Poomsae និស្សិតសន្តិសុខបច្ចេកវិទ្យា និងជាស្ថាបនិកក្លិប",
+            "cta": "ស្វែងយល់បន្ថែម"
+        },
+        "gravzero": {
+            "title": "ក្លិបទាំងពីរ",
+            "p1": "ដឹកនាំក្លិបតេក្វាន់ដូធំៗចំនួនពីរ ដែលផ្តោតលើសម្ដែង Poomsae។",
+            "structures": [
+                {
+                    "title": "Gravzero TKD",
+                    "role": "សាលាតេក្វាន់ដូ",
+                    "desc": "អាជីវកម្មស្តាតអាប់ និងកម្មវិធីអប់រំតេក្វាន់ដូគុណភាពខ្ពស់។"
+                },
+                {
+                    "title": "Infinity TKD",
+                    "role": "ស្តាតអូឡាំពិក",
+                    "desc": "ក្លិបតេក្វាន់ដូដែលមានទីតាំងនៅពហុកីឡដ្ឋានជាតិអូឡាំពិក ភ្នំពេញ។"
+                },
+                {
+                    "title": "GZ STUDIO",
+                    "role": "ផលិតកម្ម",
+                    "desc": "ការរចនាសកម្មភាព និងការផ្សព្វផ្សាយម៉ាកយីហោ។"
+                }
+            ]
+        },
+        "achievements": {
+            "title": "សមិទ្ធផល",
+            "items": [
+                {
+                    "year": "2025",
+                    "title": "បង្កើត GravZero",
+                    "desc": "ខែធ្នូ។ បង្កើតម៉ាកយីហោតេក្វាន់ដូទំនើបដំបូងគេ។ លោកក៏នឹងចូលរួមប្រកួត Waein Cup នៅសិង្ហបុរីផងដែរ។"
+                },
+                {
+                    "year": "2023",
+                    "title": "មេដាយសំរឹទ្ធ២គ្រឿង ស៊ីហ្គេម",
+                    "desc": "ព្រឹត្តិការណ៍កីឡាស៊ីហ្គេមលើកទី៣២៖ ឯកត្តជនបុរស និងក្រុមចម្រុះ Freestyle Poomsae។"
+                },
+                {
+                    "year": "2022",
+                    "title": "មេដាយសំរឹទ្ធថ្នាក់ជាតិ៣គ្រឿង",
+                    "desc": "ការប្រកួតជើងឯកថ្នាក់ជាតិ, កីឡាជាតិលើកទី៣, និង ការប្រកួតកីឡាសាកលវិទ្យាល័យ CamTech។"
+                },
+                {
+                    "year": "តំណាងជាតិ",
+                    "title": "ក្រុមសម្តែងជាតិ",
+                    "desc": "ចូលរួមក្នុងការសម្តែងតេក្វាន់ដូ ជាមួយក្រុមជម្រើសជាតិកម្ពុជា។"
+                }
+            ]
+        },
+        "services": {
+            "title": "សេវាកម្ម",
+            "items": [
+                "ការបង្វឹកផ្ទាល់ខ្លួន",
+                "សិក្ខាសាលា",
+                "យុទ្ធសាស្ត្រម៉ាកយីហោ",
+                "ការសម្តែង"
+            ]
+        }
+    },
+    "zh": {
+        "hero": {
+            "title": "Keo Moni",
+            "subtitle": "特技品势运动员，网络安全学生与道馆创始人。",
+            "cta": "探索思维"
+        },
+        "gravzero": {
+            "title": "道馆与平台",
+            "p1": "领导两所专注于品势与示范表演的顶级跆拳道道馆。",
+            "structures": [
+                {
+                    "title": "Gravzero TKD",
+                    "role": "创业学院",
+                    "desc": "真正的初创企业和高质量的跆拳道学院项目。"
+                },
+                {
+                    "title": "Infinity TKD",
+                    "role": "奥林匹克体育场俱乐部",
+                    "desc": "位于金边奥林匹克体育场的专业跆拳道俱乐部。"
+                },
+                {
+                    "title": "GZ STUDIO",
+                    "role": "制作",
+                    "desc": "高端动作设计与品牌故事讲述。"
+                }
+            ]
+        },
+        "achievements": {
+            "title": "里程碑",
+            "items": [
+                {
+                    "year": "2025",
+                    "title": "创立 GravZero",
+                    "desc": "12月。在金边创立首个现代特技/跆拳道品牌。将出战新加坡 Waein Cup。"
+                },
+                {
+                    "year": "2023",
+                    "title": "东南亚运动会双铜牌",
+                    "desc": "第32届东南亚运动会：男子个人及混合团体自由品势 (得分: 6.54)。"
+                },
+                {
+                    "year": "2022",
+                    "title": "全国三项铜牌",
+                    "desc": "柬埔寨全国锦标赛，第三届全国运动会与 CamTech 大学比赛。"
+                },
+                {
+                    "year": "国家代表",
+                    "title": "国家示范队",
+                    "desc": "与柬埔寨国家队一起参与跆拳道示范表演。"
+                }
+            ]
+        },
+        "services": {
+            "title": "服务",
+            "items": [
+                "私人教练",
+                "研讨会",
+                "品牌策略",
+                "商业表演"
+            ]
+        }
+    }
+}
