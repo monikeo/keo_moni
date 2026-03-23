@@ -18,6 +18,7 @@ export default function TheNavbar() {
 
   const links = [
     { path: "/about", label: t.nav.about },
+    { path: "/taekwondo", label: t.nav.taekwondo },
     { path: "/media", label: t.nav.media },
     { path: "/projects", label: t.nav.projects },
     { path: "/blog", label: t.nav.blog },

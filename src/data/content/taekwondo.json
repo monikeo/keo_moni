@@ -1,0 +1,74 @@
+{
+    "en": {
+        "header": {
+            "title": "The Way of the Foot & Fist",
+            "subtitle": "A lifelong discipline combining explosive physical output with unyielding mental resilience. Master of Freestyle Poomsae & Performance."
+        },
+        "avatar": {
+            "title": "DIGITAL AVATAR // PENDING 3D RENDER",
+            "stats": {
+                "height": "168cm",
+                "weight": "62kg",
+                "build": "Sleeper Build",
+                "core": "6-Pack",
+                "status": "Awaiting WebGL Injection"
+            }
+        },
+        "journey": {
+            "title": "The Journey",
+            "text": "My martial arts journey began as a pursuit of discipline and evolved into a deep exploration of human physics and acrobatics. Competing at elite levels, I merged traditional Taekwondo forms with extreme martial arts tricking, creating a dynamic, high-flying style. I've proudly represented the National Demonstration Team and stood on the podium at multiple national championships."
+        },
+        "coaching": {
+            "title": "Coaching & Leadership",
+            "text": "As the founder of GravZero Taekwondo and Infinity Taekwondo in Phnom Penh, my mission extends far beyond the mat. I leverage sports science, functional training, and biomechanical analysis to engineer the next generation of athletes. We don't just kick; we analyze, optimize, and execute."
+        }
+    },
+    "km": {
+        "header": {
+            "title": "មាគ៌ានៃក្បាច់គុនតេក្វាន់ដូ",
+            "subtitle": "ការរួមបញ្ចូលគ្នារវាងកម្លាំងកាយ និងស្មារតីរឹងមាំ។ ម្ចាស់ជើងឯក Freestyle Poomsae & Performance។"
+        },
+        "avatar": {
+            "title": "DIGITAL AVATAR // PENDING 3D RENDER",
+            "stats": {
+                "height": "168cm",
+                "weight": "62kg",
+                "build": "សំណង់រាងកាយរឹងមាំ",
+                "core": "6-Pack",
+                "status": "រង់ចាំការបញ្ចូល WebGL"
+            }
+        },
+        "journey": {
+            "title": "ដំណើរជីវិតក្បាច់គុន",
+            "text": "ការចាប់ផ្តើមសិល្បៈក្បាច់គុនជារឿងវិន័យ តែបានវិវត្តន៍ទៅការស្វែងយល់ស៊ីជម្រៅពីចលនារាងកាយ និងកាយសម្ព័ន្ធ។ ខ្ញុំរួមបញ្ចូលក្បាច់គុនបុរាណជាមួយនឹងក្បាច់សេរី (Tricking) បង្កើតជារចនាប័ទ្មថ្មី។ ខ្ញុំធ្លាប់ជាផ្នែកនៃក្រុមសម្តែងថ្នាក់ជាតិ និងដណ្តើមមេដាយក្នុងកម្មវិធីប្រកួតជាច្រើនថ្នាក់ជាតិ។"
+        },
+        "coaching": {
+            "title": "ការបង្វឹក & ភាពជាអ្នកដឹកនាំ",
+            "text": "ក្នុងនាមជាស្ថាបនិក GravZero Taekwondo និង Infinity Taekwondo គោលដៅរបស់ខ្ញុំគឺហួសពីកម្រាលហាត់។ ខ្ញុំប្រើប្រាស់ជំនាញវិទ្យាសាស្ត្រកីឡា ដើម្បីអភិវឌ្ឍអត្តពលិកជំនាន់ក្រោយ។ យើងមិនត្រឹមតែទាត់ទេ យើងវិភាគ និងអនុវត្ត។"
+        }
+    },
+    "zh": {
+        "header": {
+            "title": "足与拳的哲学",
+            "subtitle": "将爆发的物理输出与不屈的精神韧性相结合。自由特技品势与表演的大师。"
+        },
+        "avatar": {
+            "title": "数字人 // 等待 3D 渲染",
+            "stats": {
+                "height": "168cm",
+                "weight": "62kg",
+                "build": "精悍体魄",
+                "core": "6块腹肌",
+                "status": "等待 WebGL 注入"
+            }
+        },
+        "journey": {
+            "title": "武术旅程",
+            "text": "我的武术之旅始于追求纪律，最后演变成对人体物理学和杂技的深入探索。在精英级别的比赛中，我将传统的跆拳道品势与极限武术特技融合，创造出一种动感十足的高空风格。我曾自豪地代表国家示范队出战，并在多次全国锦标赛上登上领奖台。"
+        },
+        "coaching": {
+            "title": "执教与领导力",
+            "text": "作为金边 GravZero Taekwondo 和 Infinity Taekwondo 的创始人，我的使命远不止于道垫。我利用现代体育科学、功能性训练和生物力学分析来培养下一代运动员。我们不只是踢腿，我们分析、优化并执行。"
+        }
+    }
+}

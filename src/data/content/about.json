@@ -35,6 +35,31 @@
                 "Build Gravzero Taekwondo into an internationally respected team",
                 "Inspire the next generation through education and example"
             ]
+        },
+        "education": {
+            "title": "EDUCATION",
+            "items": [
+                {
+                    "year": "2022",
+                    "school": "CamTech University",
+                    "degree": "Cyber Security"
+                },
+                {
+                    "year": "2016",
+                    "school": "Australian Centre for Education",
+                    "degree": "English Diploma"
+                },
+                {
+                    "year": "2015",
+                    "school": "Sisowath New Generation School",
+                    "degree": "High School"
+                },
+                {
+                    "year": "2012",
+                    "school": "MinSheng ZhongXue",
+                    "degree": "Chinese Diploma Graduation"
+                }
+            ]
         }
     },
     "km": {
@@ -73,6 +98,31 @@
                 "កសាង Gravzero ឱ្យល្បីល្បាញលើឆាកអន្តរជាតិ",
                 "បំផុសគំនិតយុវជនជំនាន់ក្រោយ"
             ]
+        },
+        "education": {
+            "title": "ការសិក្សា",
+            "items": [
+                {
+                    "year": "2022",
+                    "school": "សាកលវិទ្យាល័យ CamTech",
+                    "degree": "សន្តិសុខបច្ចេកវិទ្យា (Cyber Security)"
+                },
+                {
+                    "year": "2016",
+                    "school": "មជ្ឈមណ្ឌលអូស្ត្រាលីសម្រាប់ការបណ្តុះបណ្តាល (ACE)",
+                    "degree": "សញ្ញាបត្រភាសាអង់គ្លេស"
+                },
+                {
+                    "year": "2015",
+                    "school": "វិទ្យាល័យព្រះស៊ីសុវត្ថិ (ជំនាន់ថ្មី)",
+                    "degree": "វិទ្យាល័យ"
+                },
+                {
+                    "year": "2012",
+                    "school": "សាលាមុនីស៊ីញ (MinSheng ZhongXue)",
+                    "degree": "សញ្ញាបត្រភាសាចិន"
+                }
+            ]
         }
     },
     "zh": {
@@ -110,6 +160,31 @@
                 "成为全球认可的特技跆拳道运动员",
                 "将 Gravzero 打造成国际受人尊敬的表演团队",
                 "通过教育和榜样激励下一代"
+            ]
+        },
+        "education": {
+            "title": "教育背景",
+            "items": [
+                {
+                    "year": "2022",
+                    "school": "CamTech 大学",
+                    "degree": "网络安全 (Cyber Security)"
+                },
+                {
+                    "year": "2016",
+                    "school": "澳大利亚教育中心 (ACE)",
+                    "degree": "英语文凭"
+                },
+                {
+                    "year": "2015",
+                    "school": "西索瓦新一代学校",
+                    "degree": "高中"
+                },
+                {
+                    "year": "2012",
+                    "school": "民生中学 (MinSheng ZhongXue)",
+                    "degree": "中文毕业文凭"
+                }
             ]
         }
     }

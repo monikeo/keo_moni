@@ -3,6 +3,7 @@
         "nav": {
             "home": "Home",
             "about": "About",
+            "taekwondo": "Taekwondo",
             "media": "Media",
             "projects": "Projects",
             "contact": "Contact",
@@ -36,6 +37,7 @@
         "nav": {
             "home": "ទំព័រដើម",
             "about": "អំពីខ្ញុំ",
+            "taekwondo": "តេក្វាន់ដូ",
             "media": "រូបភាព/វីដេអូ",
             "projects": "គម្រោង",
             "contact": "ទំនាក់ទំនង",
@@ -69,6 +71,7 @@
         "nav": {
             "home": "主页",
             "about": "关于我",
+            "taekwondo": "跆拳道",
             "media": "媒体",
             "projects": "项目",
             "contact": "联系",

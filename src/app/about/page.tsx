@@ -65,8 +65,9 @@ export default function AboutPage() {
 
       <section className="section bg-soft border-top" style={{ background: "var(--bg-secondary)", borderTop: "1px solid var(--border-color)" }}>
         <div className="container">
-          <h2 className="section-title mb-lg reveal-on-scroll" style={{ marginBottom: "4rem", fontSize: "2rem" }}>EXPERTISE</h2>
-          <div className="expertise-grid">
+          <h2 className="section-title mb-lg reveal-on-scroll" style={{ marginBottom: "4rem", fontSize: "2rem" }}>{t.education?.title || "EXPERTISE"}</h2>
+          
+          <div className="expertise-grid mb-xl" style={{ marginBottom: "6rem" }}>
              {t.expertise.map((skill: string, i: number) => (
                <div key={i} className={`skill-card reveal-on-scroll delay-${Math.min(i*50, 500)}`} style={{ background: "var(--bg-primary)", padding: "2rem", transition: "0.2s" }}>
                  <span className="skill-num" style={{ fontFamily: "'Inter', monospace", color: "var(--accent-blue)", display: "block", marginBottom: "0.5rem" }}>0{i+1}</span>
@@ -74,6 +75,110 @@ export default function AboutPage() {
                </div>
              ))}
           </div>
+
+          <h2 className="section-title mb-lg reveal-on-scroll text-center" style={{ marginBottom: "4rem", fontSize: "2rem", textAlign: "center" }}>{t.education?.title || "EDUCATION"}</h2>
+          
+          <style dangerouslySetInnerHTML={{__html: `
+            .edu-timeline {
+              position: relative;
+              max-width: 800px;
+              margin: 0 auto;
+              padding: 2rem 0;
+            }
+            .edu-timeline::before {
+              content: '';
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 50%;
+              width: 2px;
+              background: var(--border-color);
+              transform: translateX(-50%);
+            }
+            .edu-item {
+              display: flex;
+              justify-content: flex-end;
+              padding-right: 50%;
+              position: relative;
+              margin-bottom: 2rem;
+              width: 100%;
+            }
+            .edu-item:nth-child(even) {
+              justify-content: flex-start;
+              padding-right: 0;
+              padding-left: 50%;
+            }
+            .edu-content {
+              width: 90%;
+              padding: 1.5rem;
+              background: var(--bg-primary);
+              border: 1px solid var(--border-color);
+              position: relative;
+            }
+            .edu-item:nth-child(odd) .edu-content {
+              text-align: right;
+            }
+            .edu-marker {
+              position: absolute;
+              top: 50%;
+              right: -13px;
+              transform: translateY(-50%);
+              width: 24px;
+              height: 24px;
+              background: var(--bg-primary);
+              border: 2px solid var(--accent-blue);
+              border-radius: 50%;
+              z-index: 1;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            .edu-item:nth-child(even) .edu-marker {
+               left: -13px;
+               right: auto;
+            }
+            .edu-marker::before {
+               content: '';
+               width: 10px;
+               height: 10px;
+               background: var(--accent-blue);
+               border-radius: 50%;
+            }
+            @media (max-width: 768px) {
+              .edu-timeline::before {
+                left: 0;
+              }
+              .edu-item, .edu-item:nth-child(even) {
+                justify-content: flex-start;
+                padding-left: 2rem;
+                padding-right: 0;
+              }
+              .edu-content {
+                width: 100%;
+              }
+              .edu-item:nth-child(odd) .edu-content {
+                text-align: left;
+              }
+              .edu-marker, .edu-item:nth-child(even) .edu-marker {
+                left: -12px;
+                right: auto;
+              }
+            }
+          `}} />
+
+          <div className="edu-timeline">
+            {t.education?.items.map((edu: any, i: number) => (
+              <div key={i} className="edu-item reveal-on-scroll">
+                 <div className="edu-content">
+                    <div className="edu-marker"></div>
+                    <span className="mono-label" style={{ color: "var(--accent-blue)", marginBottom: "0.5rem", display: "block" }}>{edu.year}</span>
+                    <h3 style={{ fontSize: "1.3rem", marginBottom: "0.2rem", color: "var(--text-primary)" }}>{edu.school}</h3>
+                    <p style={{ color: "var(--text-secondary)", margin: 0 }}>{edu.degree}</p>
+                 </div>
+              </div>
+            ))}
+          </div>
+
         </div>
       </section>
     </div>
