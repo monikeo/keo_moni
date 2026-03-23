@@ -1,5 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
 import { useContent } from "@/context/LanguageContext";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import tData from "@/data/content/taekwondo.json";
@@ -47,19 +49,42 @@ export default function TaekwondoPage() {
                   B: {tkd.avatar.stats.build} // {tkd.avatar.stats.core}
                </div>
 
-               {/* Center Focus Target */}
-               <div style={{ width: "300px", height: "300px", border: "1px dashed var(--border-color)", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
+               {/* Center Focus Target & 3D Hologram Image */}
+               <div style={{ width: "350px", height: "450px", display: "flex", alignItems: "center", justifyContent: "center", position: "relative", perspective: "1000px" }}>
                   <div style={{ width: "2px", height: "40px", background: "var(--text-secondary)", position: "absolute", top: "-20px" }}></div>
                   <div style={{ width: "2px", height: "40px", background: "var(--text-secondary)", position: "absolute", bottom: "-20px" }}></div>
                   <div style={{ width: "40px", height: "2px", background: "var(--text-secondary)", position: "absolute", left: "-20px" }}></div>
                   <div style={{ width: "40px", height: "2px", background: "var(--text-secondary)", position: "absolute", right: "-20px" }}></div>
                   
-                  <div style={{ textAlign: "center" }}>
-                     <h3 style={{ fontSize: "1.2rem", color: "#fff", textTransform: "uppercase", letterSpacing: "2px", margin: 0 }}>
-                        {tkd.avatar.title}
+                  {/* Floating Hologram 3D Effect */}
+                  <motion.div 
+                     animate={{ y: [0, -15, 0], scale: [1, 1.02, 1] }}
+                     transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
+                     style={{ position: "relative", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", filter: "drop-shadow(0px 20px 30px rgba(0, 163, 255, 0.4))", transformStyle: "preserve-3d" }}
+                  >
+                     {/* The base image simulating a 3D hologram scan */}
+                     <Image 
+                        src="/images/3d-avatar.png" 
+                        alt="Keo Moni 3D Avatar"
+                        fill
+                        style={{ objectFit: "contain", opacity: 0.95, filter: "contrast(1.1) brightness(1.2) saturate(1.1)" }}
+                        priority
+                     />
+                     
+                     {/* Holographic Scanline Overlay to enhance 3D feel */}
+                     <motion.div 
+                        style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "4px", background: "rgba(0, 163, 255, 0.6)", boxShadow: "0px 0px 10px rgba(0, 163, 255, 0.8)", zIndex: 10 }}
+                        animate={{ top: ["0%", "100%", "0%"] }}
+                        transition={{ repeat: Infinity, duration: 3, ease: "linear" }}
+                     ></motion.div>
+                  </motion.div>
+                  
+                  <div style={{ position: "absolute", bottom: "-50px", textAlign: "center", width: "100%" }}>
+                     <h3 style={{ fontSize: "1rem", color: "#fff", textTransform: "uppercase", letterSpacing: "2px", margin: 0 }}>
+                        {tkd.avatar.title.replace("PENDING", "INITIALIZED")}
                      </h3>
-                     <span style={{ color: "var(--accent-red)", fontSize: "0.8rem", fontFamily: "'Inter', monospace", marginTop: "1rem", display: "inline-block" }}>
-                        {tkd.avatar.stats.status}
+                     <span style={{ color: "var(--accent-blue)", fontSize: "0.8rem", fontFamily: "'Inter', monospace", marginTop: "0.5rem", display: "inline-block" }}>
+                        [ ENGINE: ONLINE // RENDER ACTIVE ]
                      </span>
                   </div>
                </div>
