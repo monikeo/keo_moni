@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { useContent } from "@/context/LanguageContext";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
@@ -168,14 +169,21 @@ export default function AboutPage() {
 
           <div className="edu-timeline">
             {t.education?.items.map((edu: any, i: number) => (
-              <div key={i} className="edu-item reveal-on-scroll">
+              <motion.div 
+                key={i} 
+                className="edu-item"
+                initial={{ opacity: 0, x: i % 2 === 0 ? 50 : -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: i * 0.1 }}
+              >
                  <div className="edu-content">
                     <div className="edu-marker"></div>
                     <span className="mono-label" style={{ color: "var(--accent-blue)", marginBottom: "0.5rem", display: "block" }}>{edu.year}</span>
                     <h3 style={{ fontSize: "1.3rem", marginBottom: "0.2rem", color: "var(--text-primary)" }}>{edu.school}</h3>
                     <p style={{ color: "var(--text-secondary)", margin: 0 }}>{edu.degree}</p>
                  </div>
-              </div>
+              </motion.div>
             ))}
           </div>
 

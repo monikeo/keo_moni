@@ -14,12 +14,12 @@ export default function HomePage() {
     <div className="page-container">
       <div className="bg-grid"></div>
 
-      <section className="hero-section" style={{ minHeight: "90vh", display: "flex", alignItems: "center" }}>
+      <section className="hero-section page-header" style={{ minHeight: "100vh", display: "flex", alignItems: "center" }}>
         <div className="container">
           <div className="hero-split">
              <div className="hero-content reveal-on-scroll">
                 <span className="mono-label" style={{ display: "block", marginBottom: "1rem" }}>ARCHITECT OF MOVEMENT</span>
-                <h1 className="hero-title" style={{ fontSize: "clamp(3rem, 7vw, 6rem)", textTransform: "uppercase", lineHeight: 1.1, marginBottom: "1rem", letterSpacing: "-2px" }}>
+                <h1 className="hero-title" style={{ fontSize: "clamp(2rem, 7vw, 6rem)", textTransform: "uppercase", lineHeight: 1.1, marginBottom: "1rem", letterSpacing: "-2px" }}>
                   {t.hero.title}
                 </h1>
                 <p className="hero-subtitle" style={{ fontSize: "1.2rem", color: "var(--text-secondary)", marginBottom: "2rem", maxWidth: "450px" }}>
@@ -47,7 +47,7 @@ export default function HomePage() {
       {/* Startup Showcase */}
       <section className="section bg-soft border-top" style={{ background: "var(--bg-secondary)", borderTop: "1px solid var(--border-color)" }}>
          <div className="container">
-            <h2 className="section-title reveal-on-scroll" style={{ fontSize: "3rem", textTransform: "uppercase" }}>{t.gravzero.title}</h2>
+            <h2 className="section-title reveal-on-scroll" style={{ fontSize: "clamp(2rem, 6vw, 3rem)", textTransform: "uppercase" }}>{t.gravzero.title}</h2>
             <p className="text-secondary reveal-on-scroll delay-100" style={{ color: "var(--text-secondary)", marginBottom: "4rem" }}>{t.gravzero.p1}</p>
             
             <div className="blueprint-grid">
@@ -65,7 +65,7 @@ export default function HomePage() {
       {/* Coaching Philosophy & Mindset */}
       <section className="section">
          <div className="container">
-            <h2 className="section-title reveal-on-scroll" style={{ fontSize: "2.5rem", textTransform: "uppercase", marginBottom: "3rem" }}>{t.philosophy?.title || 'Philosophy'}</h2>
+            <h2 className="section-title reveal-on-scroll" style={{ fontSize: "clamp(2rem, 6vw, 2.5rem)", textTransform: "uppercase", marginBottom: "3rem" }}>{t.philosophy?.title || 'Philosophy'}</h2>
             <div className="mindset-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
                {t.philosophy?.items?.map((p: any, i: number) => (
                   <div key={i} className={`mindset-card reveal-on-scroll delay-${Math.min(i*100, 500)}`} style={{ paddingLeft: "1.5rem", borderLeft: "2px solid var(--accent-blue)" }}>
@@ -80,7 +80,7 @@ export default function HomePage() {
       {/* Cooperation / Partnerships */}
       <section className="section bg-soft border-top" style={{ background: "var(--bg-secondary)", borderTop: "1px solid var(--border-color)" }}>
          <div className="container">
-            <h2 className="section-title reveal-on-scroll text-center" style={{ fontSize: "3rem", textTransform: "uppercase", marginBottom: "1rem" }}>{t.contact.title}</h2>
+            <h2 className="section-title reveal-on-scroll text-center" style={{ fontSize: "clamp(2rem, 6vw, 3rem)", textTransform: "uppercase", marginBottom: "1rem" }}>{t.contact.title}</h2>
             <p className="reveal-on-scroll text-center" style={{ color: "var(--text-secondary)", marginBottom: "4rem", maxWidth: "600px", margin: "0 auto 4rem" }}>Aligning visions to create high-impact products, performances, and digital experiences.</p>
             <div className="coop-grid blueprint-grid">
                {t.contact.openTo.map((item: string, i: number) => (
@@ -95,7 +95,7 @@ export default function HomePage() {
       {/* Achievements / Hall of Fame */}
       <section className="section border-top" style={{ borderTop: "1px solid var(--border-color)" }}>
          <div className="container">
-            <h2 className="section-title reveal-on-scroll" style={{ fontSize: "3rem", textTransform: "uppercase", marginBottom: "4rem" }}>{t.achievements.title}</h2>
+            <h2 className="section-title reveal-on-scroll" style={{ fontSize: "clamp(2rem, 6vw, 3rem)", textTransform: "uppercase", marginBottom: "4rem" }}>{t.achievements.title}</h2>
             <div className="hof-grid">
                {t.achievements.items.map((item: any, i: number) => (
                   <div key={i} className={`hof-card reveal-on-scroll delay-${Math.min(i*100, 500)}`}>
@@ -112,7 +112,7 @@ export default function HomePage() {
 
       {/* Big Footer CTA */}
       <div className="large-cta border-top text-center" style={{ padding: "var(--space-xl) 0", background: "var(--bg-secondary)", borderTop: "1px solid var(--border-color)" }}>
-         <h2 className="reveal-on-scroll" style={{ fontSize: "clamp(3rem, 6vw, 5rem)", textTransform: "uppercase", margin: 0 }}>READY TO BUILD?</h2>
+         <h2 className="reveal-on-scroll" style={{ fontSize: "clamp(2rem, 6vw, 5rem)", textTransform: "uppercase", margin: 0 }}>READY TO BUILD?</h2>
          <div className="reveal-on-scroll delay-200" style={{ marginTop: "2rem" }}>
            <Link href="/contact" className="btn-sharp primary" style={{ fontSize: "1.2rem", padding: "1rem 2.5rem" }}>START A PROJECT</Link>
          </div>

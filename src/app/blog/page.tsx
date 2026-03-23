@@ -17,8 +17,9 @@ export default function BlogPage() {
   const categories = ["ALL", ...Array.from(new Set(allPosts.map((p: any) => p.category))) as string[]];
 
   const filteredPosts = allPosts.filter((post: any) => {
-    const matchesSearch = post.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          post.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
+    const sQ = searchQuery?.toLowerCase() || "";
+    const matchesSearch = (post.title?.toLowerCase() || "").includes(sQ) || 
+                          (post.excerpt?.toLowerCase() || "").includes(sQ);
     const matchesCategory = activeCategory === "ALL" || post.category === activeCategory;
     return matchesSearch && matchesCategory;
   });

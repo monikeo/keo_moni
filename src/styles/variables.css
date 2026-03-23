@@ -17,6 +17,10 @@
 
   --border-color: #e2e4e8;
 
+  /* Global Shadows (Light Mode) */
+  --shadow-soft: 0 10px 40px -10px rgba(0,0,0,0.08);
+  --shadow-glow: 0 0 30px rgba(0, 68, 204, 0.15);
+
   /* SHARP RADIUS */
   --radius-sm: 0px;
   --radius-md: 2px;
@@ -48,6 +52,10 @@
   --accent-dark: #ffffff;
 
   --border-color: #222222;
+
+  /* Global Shadows (Dark Mode) */
+  --shadow-soft: 0 10px 40px -10px rgba(0,0,0,0.6);
+  --shadow-glow: 0 0 30px rgba(41, 121, 255, 0.2);
 }
 
 .container {
@@ -63,7 +71,7 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid var(--border-color);
-  /* Proper border instead of gloss */
+  box-shadow: var(--shadow-soft);
 }
 
 .text-gradient {

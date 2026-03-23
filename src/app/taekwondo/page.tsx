@@ -80,7 +80,7 @@ export default function TaekwondoPage() {
                   </motion.div>
                   
                   <div style={{ position: "absolute", bottom: "-50px", textAlign: "center", width: "100%" }}>
-                     <h3 style={{ fontSize: "1rem", color: "#fff", textTransform: "uppercase", letterSpacing: "2px", margin: 0 }}>
+                     <h3 style={{ fontSize: "1rem", color: "var(--text-primary)", textTransform: "uppercase", letterSpacing: "2px", margin: 0 }}>
                         {tkd.avatar.title.replace("PENDING", "INITIALIZED")}
                      </h3>
                      <span style={{ color: "var(--accent-blue)", fontSize: "0.8rem", fontFamily: "'Inter', monospace", marginTop: "0.5rem", display: "inline-block" }}>
